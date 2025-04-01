@@ -1,0 +1,164 @@
+@-moz-document domain("ovk.to"),
+domain("vepurovk.xyz") {
+    /* Картиночки */
+    .page_header {
+        background: url(https://raw.githubusercontent.com/Loroteber/ovk-on/refs/heads/main/sources/header.png)
+    }
+    .audioEntry .playerButton .playIcon {
+        background-image: url(https://raw.githubusercontent.com/Loroteber/ovk-on/refs/heads/main/sources/play_buttons.png);
+    }
+    .musicIcon {
+        background-image: url(https://raw.githubusercontent.com/Loroteber/ovk-on/refs/heads/main/sources/audios_controls.png);
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+    /* Цвета */
+    :root {
+        --sex_1: #746346;
+        --sex_2: #79684b;
+        --sex_3: #615033;
+        --sex_4: #6d5c3e;
+    }
+    .ovk-diag-head {
+        background-color: var(--sex_2)
+    }
+    a {
+        color: var(--sex_1);
+    }
+    .audioEntry.nowPlaying .performer,
+    .audioEntry.nowPlaying .performer a {
+        color: var(--sex_3) !important
+    }
+    .audioEntry.nowPlaying:hover .performer a {
+        color: #FFF !important
+    }
+    .audioEntry.nowPlaying:hover .playerButton .playIcon {
+        background-image: url(https://raw.githubusercontent.com/Loroteber/ovk-on/refs/heads/main/sources/play_buttons_but_sexy.png);
+    }
+    .friendsAudiosList .elem .additionalInfo .name {
+        color: var(--sex_3)
+    }
+    .audioEntry.nowPlaying {
+        background: #F0F1F2;
+        outline: 1px solid var(--sex_2);
+    }
+    .audioEntry.nowPlaying:hover {
+        background: var(--sex_3) !important;
+        outline: 1px solid var(--sex_2);
+    }
+    .audioEntry.nowPlaying .mini_timer .nobold {
+        color: var(--sex_3) !important;
+    }
+    .audioEntry.nowPlaying .explicitMark path {
+        fill: var(--sex_3);
+    }
+    .audioEntry.nowPlaying:hover .explicitMark path {
+        fill: #FFF;
+    }
+    .audioEntry.nowPlaying .info,
+    .audioEntry.nowPlaying .title {
+        color: #000;
+    }
+    .audioEntry.nowPlaying:hover .info,
+    .audioEntry.nowPlaying:hover .title {
+        color: #FFF;
+    }
+    #profile_link,
+    .profile_link {
+        color: var(--sex_1)
+    }
+    .summaryBar .summary {
+        color: var(--sex_1)
+    }
+    .paginator a.active {
+        border-top: 3px solid var(--sex_1)
+    }
+    .paginator a:hover {
+        border-top: 3px solid var(--sex_3)
+    }
+    .verticalGrayTabs a {
+        color: var(--sex_1) !important;
+    }
+    .verticalGrayTabs a:hover {
+        color: #000 !important;
+    }
+    .audioEntry .withLyrics {
+        color: #000;
+        font-weight: bold
+    }
+    .tabs {
+        border-bottom: 1px solid var(--sex_1);
+    }
+    .audioEmbed .track .slider,
+    .bigPlayer .slider {
+        background: var(--sex_1);
+    }
+    .verticalGrayTabs #used {
+        border: solid 0.125rem var(--sex_3);
+        background: var(--sex_2);
+    }
+    .like_tooltip_head {
+        background: var(--sex_1) !important;
+    }
+    .post-author a {
+        color: var(--sex_1);
+    }
+    .tab:hover a {
+        color: #000
+    }
+    #activetabs {
+        background: var(--sex_1);
+    }
+    .content_page_error span {
+        color: var(--sex_1);
+    }
+    .button {
+        background: var(--sex_2);
+    }
+    .button_search {
+        background: var(--sex_2);
+    }
+    .header_navigation #search_box .search_box_button {
+        background-color: var(--sex_2);
+    }
+    .audioEntry .performer a {
+        color: var(--sex_3);
+    }
+    .mb_tab .special_counter {
+        color: var(--sex_2);
+    }
+    .mb_tab#active {
+        background-color: var(--sex_3);
+    }
+    #ovkDraw {
+        border: 1px solid var(--sex_4);
+    }
+    .profileName h2 {
+        color: var(--sex_2);
+    }
+    h4 {
+        color: var(--sex_3)
+    }
+    .link a {
+        color: #FFF !important
+    }
+
+    /* Прочая шняга (скрытия элементов, балоства с размерами и тп) */
+    .link,
+    .header_divider_stick {
+        background: none !important;
+    }
+    .link a[href="/"],
+    .link a[href="/search?section=groups"],
+    .link a[href="/search?q=&section=users&order=rating"],
+    .link a[href="/search?q=&section=users&order=invert=1"] {
+        font-size: 0px /* Ну вот скажите мне: пользуетесь ли Вы этими ссылками? Я тоже нет. А они мне девочек перекрывают в шапке, как-никак */
+    }
+    .page_header.search_expanded #search_box input[type="search"] {
+        margin-left: 280px;
+    }
+    .home_button {
+        width: 244px;
+    }
+}
