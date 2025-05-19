@@ -59,6 +59,17 @@ a {
 .audioEntry.nowPlaying:hover .title {
     color: #FFF;
 }
+.header_navigation #search_box .search_box_button {
+    background-color: var(--sex_2);
+    border: solid 1px var(--sex_3);
+}
+.header_navigation #search_box .search_box_button:active {
+    background-color: var(--sex_1);
+    border: solid 1px var(--sex_2);
+}
+.sidebar .linkunderline {
+    color: var(--sex_1) !important; 
+}
 #profile_link,
 .profile_link {
     color: var(--sex_1)
