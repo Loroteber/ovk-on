@@ -121,6 +121,14 @@ domain("vepurovk.xyz") {
     }
     .header_navigation #search_box .search_box_button {
         background-color: var(--sex_2);
+        border: solid 1px var(--sex_3);
+    }
+    .header_navigation #search_box .search_box_button:active {
+        background-color: var(--sex_1);
+        border: solid 1px var(--sex_2);
+    }
+    .sidebar .linkunderline {
+        color: var(--sex_1) !important; 
     }
     .audioEntry .performer a {
         color: var(--sex_3);
